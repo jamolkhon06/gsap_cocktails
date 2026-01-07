@@ -1,16 +1,39 @@
-# React + Vite
+# Velvet Pour 🍸
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Velvet Pour is a modern, visually rich cocktail website designed to showcase premium drinks through elegant typography, smooth animations, and a dark luxury aesthetic.  
+The project focuses on storytelling, motion, and UI polish rather than e-commerce functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Features
 
-## React Compiler
+- Elegant hero sections with large typographic statements  
+- Smooth scroll-based and entrance animations powered by GSAP  
+- Fully responsive layout for desktop, tablet, and mobile  
+- Cocktail and mocktail showcase sections  
+- Animated transitions and layered visual effects  
+- Clean, modern UI built with utility-first styling  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React – Component-based UI development  
+- GSAP (GreenSock Animation Platform) – Advanced animations and scroll interactions  
+- Tailwind CSS – Utility-first styling for rapid and consistent UI design  
+
+🚀 Getting Started
+
+Follow the steps below to run the project locally.
+
+1. Clone the repository
+git clone https://github.com/your-username/velvet-pour.git
+
+2. Navigate to the project directory
+cd velvet-pour
+
+3. Install dependencies
+npm install
+
+4. Start the development server
+npm run dev

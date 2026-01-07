@@ -54,7 +54,7 @@ const Menu = () => {
 
         <div className="content">
             <div className="arrows">
-                <button className="text-left" onClick={() => goToSlide(currentIndex - 1)}>
+                <button className="text-left pl-5" onClick={() => goToSlide(currentIndex - 1)}>
                     <span>{prevCocktail.name}</span>
                     <img src="/images/right-arrow.png" alt="right-arrow" aria-hidden="true" />
                 </button>
@@ -69,7 +69,7 @@ const Menu = () => {
                 <img src={currentCocktail.image} className="object-contain" />
             </div>
 
-            <div className="recipe">
+            <div className="recipe pl-4">
                 <div ref={contentRef} className="info">
                     <p>Recipe for:</p>
                     <p id="title">{currentCocktail.name}</p>
